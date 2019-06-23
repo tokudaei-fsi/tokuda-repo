@@ -9,6 +9,6 @@ resource "aws_instance" "fsi" {
   subnet_id              = "subnet-f60241bf"
 
   tags = {
-    Name     = "fsi@nametag"
+    Name = "fsi@nametag"
   }
 }
