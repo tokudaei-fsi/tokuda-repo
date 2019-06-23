@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 module "fsi_ec2_mod" {
-  source  = "../module/ec2/"
+  source = "../module/ec2/"
 }
