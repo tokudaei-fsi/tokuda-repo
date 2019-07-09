@@ -11,11 +11,10 @@ terraform {
   }
 }
 
-/*
 resource "aws_db_instance" "import_rds" {
 }
-*/
 
+/*
 resource "aws_db_instance" "import_rds" {
     allocated_storage                     = 20
     auto_minor_version_upgrade            = true
@@ -56,4 +55,4 @@ resource "aws_db_instance" "import_rds" {
 
     timeouts {}
 }
-
+*/
