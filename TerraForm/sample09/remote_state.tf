@@ -7,7 +7,7 @@ data "terraform_remote_state" "sg_state_input" {
 
   config = {
     bucket = "s3-fsi-terraform-state"
-    key    = "tfstate/common/sg.tfstate"
+    key    = "tfstate/common/sg2.tfstate"
     region = "ap-northeast-1"
   }
 }
